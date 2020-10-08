@@ -1,7 +1,8 @@
 name = input("Name: ")
 
 def main():
-  print('You rolled a die', + name)
+roll = 5
+  print('You rolled a {roll}', + name)
 
 if __name__== "__main__":
   main()
